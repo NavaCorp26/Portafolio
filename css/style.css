@@ -1,0 +1,75 @@
+*{
+    margin: 0 auto;
+}
+/*Estetica de la fuente*/ 
+@font-face {
+    font-family: 'open_sansregular';
+    src: url();
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helvetica_ce_55_romanregular';
+    src: url();
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+/*for section text start here (en ingles para mas mamon)*/
+::selection {
+    background: #e73131; 
+    color: azure;
+}
+
+
+#about {
+	padding:3% 0%;
+}
+#about .heading {
+	text-align:center;
+}
+/* service stylesheets include here {en ingles para verme mas mamon}*/
+#service {
+    padding: 2% 0%;
+    text-align: center;
+}
+#service .heading {
+    text-align:center;
+}
+#features-sec{
+    padding:100px 0;
+}
+#features-sec.media.service-box:first-child {
+    margin: top 8px;;
+}
+#portfolio {
+    padding:3% 0%;
+}
+#portfolio .heading {
+    text-align:center;
+}
+#pricing {
+    padding:3% 0%;
+}
+#pricing .heading {
+    text-align:center;
+}
+#team {
+    padding:3% 0%;
+}
+#team .heading {
+    text-align:center;
+}
+#blog {
+    padding:3% 0%;
+}
+#blog .heading {
+    text-align:center;
+}
+#contact {
+    padding:3% 0%;
+}
+#contact .heading {
+    text-align:center;  }
