@@ -2,26 +2,19 @@
     margin: 0 auto;
 }
 /*Estetica de la fuente*/ 
-@font-face {
-    font-family: 'open_sansregular';
-    src: url();
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'helvetica_ce_55_romanregular';
-    src: url();
-    font-weight: normal;
-    font-style: normal;
+img {
+    width: 175px;
+    position: absolute;
+    left: 10px;
+    top: 10px
 }
 body{
     font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+
 }
 /*for section text start here (en ingles para mas mamon)*/
-::selection {
-    background: #e73131; 
-    color: azure;
-}
 
 
 #about {
@@ -73,3 +66,10 @@ body{
 }
 #contact .heading {
     text-align:center;  }
+/* Navegador Estilos include here*/
+.navbar-default {
+    background-color: #000000;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+}
