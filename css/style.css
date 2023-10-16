@@ -4,19 +4,32 @@
 /*Estetica de la fuente*/ 
 img {
     width: 175px;
-    position: absolute;
-    left: 10px;
-    top: 10px
+    position: center;
+    margin: 0 auto;
 }
 body{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
     color: rgb(0, 0, 0);
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%; 
+    width: 200px;
+
+}
+.colapse.nav-collapse{
+    display: flex;
+    justify-content: center;
+}
+.collapse.navbar-collapse ul.nav.navbar-nav li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    text-align: center;
 }
 
-.navbar-nav {
-    margin-left: 175px;
-}
 /*for section text start here (en ingles para mas mamon)*/
 
 
@@ -75,5 +88,5 @@ body{
     background-color: #000000;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #fff;
+    color: #ffffff;
 }
