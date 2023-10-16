@@ -12,7 +12,10 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     color: rgb(0, 0, 0);
+}
 
+.navbar-nav {
+    margin-left: 175px;
 }
 /*for section text start here (en ingles para mas mamon)*/
 
@@ -23,6 +26,7 @@ body{
 #about .heading {
 	text-align:center;
 }
+
 /* service stylesheets include here {en ingles para verme mas mamon}*/
 #service {
     padding: 2% 0%;
