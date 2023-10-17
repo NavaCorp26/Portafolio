@@ -6,51 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <meta name="author" content="NavaCorp" />
-    <title>Portafolio</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title _msttexthash="1214931" _msthash="0">Portafolio</title>
+    <meta name ="author" content="">
+    <!-- Web Fonts -->
+    <!-- Stylesheet
+    =============================== -->
+    <!-- Bootstrap-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-
-  <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+<!--Body-->
+  <body class="side-header" data-spy="scroll" data-target=".navbar-default" data-offset="100">
     <!--Zona centrada en la pre-carga-->
-    <div id="preloader">
-      <div id="pre-status">
-        <div id="preload-placeholder"></div>
+    <div class="preloader" style="display: none;">
+      <div class="lds-ellipsis" style="display: none;">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
     </div>
-    <!--Cabecera-->
-    <header id="menu">
-      <div class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="container-fluid header-container">
-            <!-- La marca y la alternancia se agrupan para una mejor visualización móvil  -->
-            <div class="navbar-header">
-              <button
-                type="button" class="navbar-toggle collapse" data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Luis Navarrete</span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#menu"
-                ><img src="imagenes/logo_NavaCorp_default.png" alt="Logo"
-              /></a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li class="active"><a class="scroll" href="#menu">Home</a></li>
-                <li><a class="scroll" href="#about">Acerca de</a></li>
-                <li><a class="scroll" href="#service">Servicios</a></li>
-                <li><a class="scroll" href="#features">Caracteristicas</a></li>
-                <li><a class="scroll" href="#portfolio">Portfolio</a></li>
-                <li><a class="scroll" href="#pricing">Precios</a></li>
-                <li><a class="scroll" href="#team">Team</a></li>
-                <li><a class="scroll" href="#blog">Blog</a></li>
-                <li><a class="scroll" href="#contact">Contacto</a></li>
+    <!--Preloader End o precarga finalizada-->
+    <!--Documente Wrapper o envoltura del doc
+      ===================================-->
+    <div id = "main-wrapper">
+      <!-- Header o cabecera 
+      ===================================-->
+      <header id="header" class="sticky-top">
+        <nav class="bg-dark border-bottom-0 navbar-dark navbar-expand-lg primary-menu">
+          <div class="container-fluid position-relative h100 flex-lg-column ps-3 px-lg-3 pd-lg-2">
+            <!-- Logo -->
+            <a href="index.html" class="mb-lg-auto mt-lg-4">
+              <span class="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
+                <img class="img-fluid rounded-pill d-block" src="imagenes/logo_NavaCorp_default.png" title="Logo NavaCorp" alt="">
+              </span>
+              <h1 class="text-5 text-white text-center mb-0 d-lg-block" _msttexthash="201071" _msthash="1">Luis Navarrete</h1>
+            </a>
+            <!-- logo End -->
+            <div id="header-nav" class="collapse navbar-collapse w-100 my-lg-auto">
+              <ul class="navbar-nav text-lg-center my-lg-auto py-lg-3">
+                <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home" _msttexthash="59059" _msthash="2">Hogar</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#acerca de mi" _msttexthash="177970" _msthash="3">Acerca de mí</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#servicios" _msttexthash="134342" _msthash="4">Lo que hago</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#resumem" _msttexthash="113087" _msthash="5">Reanudar</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portafolio" _msttexthash="93223" _msthash="6">Cartera</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonios" _msttexthash="182000" _msthash="7">Testimonial</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contacto" _msttexthash="114712" _msthash="8">Contacto</a></li>
               </ul>
             </div>
           </div>
-        </div>
-      </div>
-    </header>
+      </header>
+    
+    </div>
+     
   </body>
   <script type="text/javascript" src="js/script.js"></script>
 </html>
